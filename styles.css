@@ -1,0 +1,12 @@
+
+.caption{
+    width: 450px;
+    height: 60px;
+}
+#list-tab-pane{
+    width: auto;
+    max-width: 600px;
+    margin: auto;
+
+}
+

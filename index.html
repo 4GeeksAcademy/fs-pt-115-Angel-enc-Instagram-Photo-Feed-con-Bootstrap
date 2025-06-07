@@ -32,7 +32,7 @@
 
 
                 <div class="d-flex">
-                    <!-- Button trigger modal -->
+                    <!-- Button modal -->
                     <button type="button" class="btn btn-success" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">
                         Create a new post
@@ -49,10 +49,14 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    Caption:
-                                    <input type="text" class="caption" id="caption input"
-                                        placeholder="Add the caption of your post here"></input>
-                                    <i class="fa-solid fa-camera"></i>
+                                    <label for="captionInput" class="form-label">Caption:</label>
+                                    <div><textarea class="caption" id="captionInput"
+                                            placeholder="Add the caption of your post here"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-secondary mt-2"
+                                        aria-label="Add photo"><i class="fa-solid fa-camera"></i></button>
+                                    <button type="button" class="btn btn-outline-secondary mt-2"
+                                        aria-label="Add ubication"><i class="fa-solid fa-location-dot"></i></button>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -62,31 +66,27 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Dropdown -->
                     <div class="nav-item dropdown">
                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="fa-solid fa-gear"></i>
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Log out</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
-
-
-
-
-
-
+    <!-- Grid -->
 
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -101,163 +101,173 @@
                 <i class="fa-solid fa-square"></i>
             </button>
         </li>
-
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="grid-tab-pane" role="tabpanel" aria-labelledby="grid-tab"
             tabindex="0">
-            <div class="container-fluid mt-4">
-
-
-
-
-
-                
-                <div class="row mb-3">
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+            <div class="container-fluid mt-4 mb-4">
+                <div class="row mb-3 g-3">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                            <img class="object-fit-cover" src="https://m.media-amazon.com/images/I/71HUUiIJccL.jpg"
+                                alt="MGS" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
-                            <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                            <img class="object-fit-cover" src="https://i.ytimg.com/vi/PoCQ8bf6FLE/maxresdefault.jpg"
+                                alt="Boss" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
                                 src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                alt="Sigilo" />
                         </div>
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                <div class="row mb-3 g-3">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://pics.filmaffinity.com/Metal_Gear_Solid_3_Snake_Eater-584223993-large.jpg"
+                                alt="MGS-Snake eater" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/collage-maker-30-oct-2023-11-43-am-6735.jpg"
+                                alt="bosses" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://www.masgamers.com/wp-content/uploads/2022/10/metal-gear-solid-remake-1.jpg"
+                                alt="titans" />
                         </div>
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                <div class="row mb-3 g-3">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://ramenparados.com/wp-content/uploads/2015/10/MGSV_Metal-Gear-Solid1-300x370.jpg"
+                                alt="MGSPoP" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://i.ytimg.com/vi/Q-QQmyZhFy8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBcEMQLjDB5UXDjiyOEYW6_bg36QA"
+                                alt="malignos" />
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 mt-2 p-2">
+                    <div class="col-12 col-sm-6 col-md-4 mt-2 ">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
-                                alt="" />
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-eI0CJa_1iARy8QN-DdsS5h0yK7JwZDl3zQ&s"
+                                alt="DOG" />
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Table list -->
+    
+    <div class="tab-pane fade" id="list-tab-pane" role="tabpanel" aria-labelledby="list-tab" tabindex="0">
+        <div class="container-fluid mt-4 ">
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">MGS-1</h2>
+                <img src="https://m.media-amazon.com/images/I/71HUUiIJccL.jpg" class="card-img-top img-fluid "
+                    alt="MGS">
+                <div class="card-body">
+                    <h5 class="card-title">2.3 K likes</h5>
+                    <p class="card-text">Esta es la carátula del Metal Gear Solid 1.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">BOSSES</h2>
+                <img src="https://i.ytimg.com/vi/PoCQ8bf6FLE/maxresdefault.jpg" class="card-img-top img-fluid"
+                    alt="Boss">
+                <div class="card-body">
+                    <h5 class="card-title">2.3 K likes</h5>
+                    <p class="card-text">Los Boss de este juego eran muy buenos, el mejor Psycho Mantis.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">SHHHH</h2>
+                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x"
+                    class="card-img-top img-fluid" alt="Sigilo">
+                <div class="card-body">
+                    <h5 class="card-title">2.3 K likes</h5>
+                    <p class="card-text">Sigilo.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">MGS-3</h2>
+                <img src="https://pics.filmaffinity.com/Metal_Gear_Solid_3_Snake_Eater-584223993-large.jpg"
+                    class="card-img-top img-fluid" alt="MGS-Snake eater">
+                <div class="card-body">
+                    <h5 class="card-title">2.3 K likes</h5>
+                    <p class="card-text">Metal Gear Solid Snake Eater.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">Los malos</h2>
+                <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/collage-maker-30-oct-2023-11-43-am-6735.jpg"
+                    class="card-img-top img-fluid" alt="bosses">
+                <div class="card-body">
+                    <h5 class="card-title">3.3 K likes</h5>
+                    <p class="card-text">The Boss.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">Duelo de titanes</h2>
+                <img src="https://www.masgamers.com/wp-content/uploads/2022/10/metal-gear-solid-remake-1.jpg"
+                    class="card-img-top img-fluid" alt="titans">
+                <div class="card-body">
+                    <h5 class="card-title">2.3 K likes</h5>
+                    <p class="card-text">Enfrentamiento épico.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">MGS-V</h2>
+                <img src="https://ramenparados.com/wp-content/uploads/2015/10/MGSV_Metal-Gear-Solid1-300x370.jpg"
+                    class="card-img-top img-fluid" alt="MGSPoP">
+                <div class="card-body">
+                    <h5 class="card-title">2.6 K likes</h5>
+                    <p class="card-text">Metal Gear Solid PHANTON OF PAIN.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">Los Bosses</h2>
+                <img src="https://i.ytimg.com/vi/Q-QQmyZhFy8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBcEMQLjDB5UXDjiyOEYW6_bg36QA"
+                    class="card-img-top img-fluid" alt="malignos">
+                <div class="card-body">
+                    <h5 class="card-title">2.9 K likes</h5>
+                    <p class="card-text">Aqui sus bosses varios.</p>
+                </div>
+            </div>
+            <div class="card col-12 mt-2">
+                <h2 class="card-title">De paseo con el perrete</h2>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-eI0CJa_1iARy8QN-DdsS5h0yK7JwZDl3zQ&s"
+                    class="card-img-top img-fluid" alt="DOG">
+                <div class="card-body">
+                    <h5 class="likes">2.3 K likes</h5>
+                    <p class="card-text">Haciendo amigos.</p>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="tab-pane fade" id="list-tab-pane" role="tabpanel" aria-labelledby="list-tab" tabindex="0">
-            <div class="container-fluid mt-4">
-                
-                        <div class="card col-12" >
-  <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/10/metalgear-solid-master-collection-volumen-1-3200108.jpg?tf=3840x" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-
-
-
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
+   
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
-<!-- tengo que continuar con el modal(faltan los iconos de debajo del input, arreglar el input y de ahi continuar con el resto del navBar)después seguir con lo demas del feed -->
